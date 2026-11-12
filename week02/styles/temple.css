@@ -1,12 +1,6 @@
 header {
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
     padding: 10px;
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-main {
-    width: 400px;
 
 }
