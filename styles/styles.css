@@ -13,6 +13,11 @@ main {
     max-width: 840px;
 }
 
+main img {
+    width: 150px;
+    height: auto;
+}
+
 h1 {
     color: rgb(17, 21, 228);
 }
@@ -42,11 +47,6 @@ aside {
 
 aside img {
     width: 200px;
-    height: auto;
-}
-
-main img {
-    width: 150px;
     height: auto;
 }
 
