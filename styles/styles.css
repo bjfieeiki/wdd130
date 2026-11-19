@@ -45,12 +45,12 @@ p {
 
 aside {
     width: 20em;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / .2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
     text-align: center;
-    margin: 0%;
-    border: #000;
-    padding: 0%;
-    background-color: #0000ff;
-    color: #000;
 }
 
 aside img {
