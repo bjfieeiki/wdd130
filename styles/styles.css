@@ -1,5 +1,5 @@
 :root {
-    --text-color: #f9f9f9;
+    --text-color: #ffffff;
 }
 
 * {
@@ -9,7 +9,7 @@
 }
 
 nav {
-    background-color: #0008f9;
+    background-color: #3b3e91;
     padding: 10px;
 }
 
