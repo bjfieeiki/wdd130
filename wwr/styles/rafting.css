@@ -42,9 +42,11 @@ nav, p, section, article {
 
 .socialmedia a {
     text-decoration: none;
-
 }
 
+.hero {
+    position: relative;
+}
 
 .hero img {
     display: block;
@@ -54,7 +56,7 @@ nav, p, section, article {
 
 .hero h1 {
     position: absolute;
-    top: 9.5em;
+    top: 1rem;
     width: 100%;
     padding: 3px;
     text-align: center;
