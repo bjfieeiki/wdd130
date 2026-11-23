@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-    background-color: #36454f;
+    background-color: #62fd02;
 }
 
 nav ul {
@@ -20,10 +20,10 @@ nav ul {
 
 nav a {
     display: block;
-    color: #fff;
+    color: #3e0aea;
     text-align: center;
     padding: 1rem;
-    text-decoration: none;
+    text-decoration: column;
 }
 
 p {
