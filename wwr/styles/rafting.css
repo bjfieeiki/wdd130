@@ -1,8 +1,8 @@
 :root {
     --primary-color: #ffffff;
     --secondary-color: #78cdd0;
-    --accent1-color: #f48067;
-    --accent2-color: #fdbf68;
+    --accent1-color: #0e04a8;
+    --accent2-color: hsl(193, 62%, 83%);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -16,6 +16,19 @@
 header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+                                     
+
 }
 
 body {
@@ -40,6 +53,13 @@ nav, p, section, article {
     margin-right: 1em;
 }
 
+footer nav a {
+    display: grid;
+    
+}
+
+
+/* class declarations   */
 .socialmedia a {
     text-decoration: none;
 }
@@ -56,7 +76,7 @@ nav, p, section, article {
 
 .hero h1 {
     position: absolute;
-    top: 1rem;
+    top: 6rem;
     width: 100%;
     padding: 3px;
     text-align: center;
@@ -70,7 +90,7 @@ nav, p, section, article {
 }
 
 .hero article img {
-    float: right;
+    justify-content: center;
     width: 180px;
     border: 1px solid #000000;
     padding: 7px;
